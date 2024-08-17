@@ -8,9 +8,7 @@
       <span @click="MenuOpen()" class="absolute md:hidden right-6 top-1.5 cursor-pointer text-4xl">
         <img
           class="w-20 h-10"
-          :src="[
-            open ? './src/assets/images/logo_rivals.png' : './src/assets/images/logo_rivals.png'
-          ]"
+          :src="open ? './src/assets/images/logo_rivals.png' : './src/assets/images/logo_rivals.png'"
         />
       </span>
 
