@@ -19,7 +19,7 @@ jobs:
       with:
         node-version-file: '.nvmrc'
 
-    - name: Install npm dependencies
+    - name: Install
       run: |
         npm install
 
